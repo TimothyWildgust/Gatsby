@@ -1,0 +1,19 @@
+nav{
+   
+
+    li{
+        display:inline;
+        padding: 10px;
+    }
+}
+
+.nav_link{
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    &:hover{
+        color:rgb(36, 36, 36);
+    }
+    &:active{
+        color: black;
+    }
+}
